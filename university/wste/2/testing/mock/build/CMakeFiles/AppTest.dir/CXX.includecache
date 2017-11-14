@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/krwi/wste/mock/App.hpp
+
+/home/krwi/wste/mock/App_test.cpp
+App.hpp
+/home/krwi/wste/mock/App.hpp
+gtest/gtest.h
+/home/krwi/wste/mock/gtest/gtest.h
+gmock/gmock.h
+/home/krwi/wste/mock/gmock/gmock.h
+

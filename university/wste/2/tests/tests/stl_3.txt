@@ -1,0 +1,175 @@
+# To jest format pliku w ktorym zapisujemy pytania
+# oraz 4 odpowiedzi z zaznaczeniem odpowiedniej
+# Niech + oznacza prawidlowa odpowiedz
+# Znak - oznacza niepoprawna
+# Quiz powinien byc jednokrotnego wyboru.
+
+# Poziom 3
+
+# Prosze dopisywac swoje pytania
+
+# Pawel D., pytania STL zestaw 3
+
+std::multiset od std::set rozni sie:
+- tylko nazwa
++ w multiset wartosci moga sie powtarzac
+- w multiset wartosci sa nieposortowane
+- multiset to set setow
+
+Aby sprawdzic czy std::vector jest pusty uzyjemy funkcji skladowej
+- swap()
+- clear()
+- erase()
++ empty()
+
+Struktura kontenera std::set jest zazwyczaj oparta na abstrakcyjnej strukturze danych o nazwie
+- kolejka
++ drzewo
+- stos
+- graf
+
+Po wykonaniu inkrementacji iteratora       std::vector<int> vec = {1,2,3}; auto i = vec.begin(); ++i;
+- pojawi sie blad
++ iterator bedzie wskazywal na nastepny element
+- iterator zwiekszy sie o 2
+- zadne z powyzszych
+
+Dane w kontenerze std::vector:
+- na poczatku sa ciagle ale po dodaniu nowego elementu moga ulec fragmentacji
+- sa ulozone losow w pamieci (niezaleznie od intencji programisty)
++ sa ulozone w pamieci zawsze w sposob ciagly
+- zadne z powyzszych
+
+#Konrad A., pytania STL zestaw 3
+
+Iteratory strumieni to:
++ Iteratory realizujace odczyt i zapis do strumienia
+- Iteratory zwiekszajace wartosc zmiennej
+- Nie ma takich iteratorow
+- zadne z powyzszych
+
+Prawda jest, ze kontenery:
+- moga byc adaptowane przy uzyciu adapterow STL-a
+- moga alokowac pamiec dynamiczna
+- nie sprawdzaja mozliwosci wystepienia kazdego rodzaju bledu
++ wszystkie odpowiedzi sa poprawne
+
+Wektor to:
++ model tablicy dynamicznej
+- model tablicy statycznej
+- funkcja
+- wyrazenie lambda
+
+Kolejka std::deque:
+- To kolejka o dwoch koncach
+- Zapewnia szybkie wstawianie elementow na koncu i na poczatku kontenera
+- Jest podobna do wektora
++ wszystkie odpowiedzi sa prawidlowe
+
+Kontenery map oraz multimap jednoczesnie:
++ Sa kontenerami, ktorych elementami sa pary klucz-wartosc
+- Nie dopuszczaja powtorzenia elementow
+- Sa funkcja statyczna
+- Wszystkie odpowiedzi sa bledne
+
+#Rafał P
+
+Plik naglowkowy <fstream> odpowiada za:
+- wyrazenia lambda
+- dolaczenie wylacznie manipulatorow we/wy C++
++ dolaczenie klas umozliwiajacych realizacje C++ operacji we/wy na plikach
+- Wszystkie odpowiedzi sa poprawne
+
+#Pytania Filip
+
+Iterator i w wyrazeniu        std::vector<int> v = {1,2,3}; std::vector<int>::iterator i;            ma wartosc:
++ nieokreslona
+- wskazujaca na poczatek kolekcji v
+- wskazujaca na koniec kolekcji v
+- wskazuje na nullptr
+
+W jaki sposobro zorganizowana jest pamiec std::vector oraz std::list:
+- Sa tak samo zorganizowane jedyna roznica jest sposob zarzadzania elementami skladowymi
++ std::vector jest zorganizowany jako ciagly element pamieci, std::list jest zorganizowana jako "linked memory" kazdy element listy wskazuje na pamiec ktora moze byc dowolnie rozlozona
+- std::list jest zorganizowany jako ciagly element pamieci, std::vector jest zorganizowana jako "linked memory" kazdy element listy wskazuje na pamiec ktora moze byc dowolnie rozlozona.
+- zadne z powyzszych
+
+W jaki sposob zadeklarowac wektor ponizszego typu: class CustomType { public: CustomType() = default; int x; }:
+- std::vector<> vec
++ std::vector<CustomType> vec
+- std::vector vec
+- std::vector<int> vec
+
+W przypadku tworzenia zbioru z niepowtarzalnymi elementami oraz struktura ktora przetrzymuje dodatkowe informacje np. lista uzytkownikow [std::string nazwa uzytkownika, wlasny typ: dane o uzytkowniku] jakiego kontenera powinnismy uzyc:
+- std::vector
+- std::list
+- std::set
++ std:::map 
+
+Wytlumacz roznice miedzy std::map a std::set:
+- nie ma roznicy
+- std::map jest zawsze zdecydowanie wolniejsza
++ std::map posiada klucz oraz wartosc, std::set posiada tylko klucz 
+- std::set posiada klucz oraz wartosc, std::map posiada tylko klucz
+
+
+
+#Pytania Krzysiek
+
+Iteratory odwrotne
+- automatycznie NIE zamieniaja wywolania operatora inkrementacji w wywolanie operatora dekrementacji i odwrotnie
++ pozwalaja algorytmom przegladac kolekcje wstecz
+- nie naleza do nich iteratory rbegin() oraz rend()
+- wszystkie odpowiedzi sa prawidlowe
+
+Mapy oraz multimapy
+- elementy nie sa automatycznie sortowane zgodnie z okreslonym kryterium
+- jedne i drugie dopuszczaja powtorzenia elementow
+- klucz nie musi byc porownywalny za pomoca kryterium sortowania
++ ich elementami sa pary klucz wartosc
+
+Niemodyfikujace Algorytmy STL to:
+- move(),replace(), transform(),swap_ranges()
++ find(), min_element(), max_element(), count()
+- fill(), generate()
+- unique(), reverse_copy
+
+Predykat
+- wszystkie predykaty sa bezargumentowe
++ jest specjalnym rodzajem funkcji pomocniczej dla algorytmow zwracajacej typ konwertowalny do bool
+- nie ma typu
+- to funkcje, ktore w trakcie wywolania ZAWSZE modyfikuja swoj wewnetrzny stan
+
+Algorytmy STL zawarte w naglowku <functional>
+- sa funkcjami skladowymi klas kontenerowych
++ sa funkcjami globalnymi operujacymi na iteratorach
+- kazdy algorytm implementowany jest osobno dla kazdego typu kontenerowego
+- algorytmy STL nie moga operowac na elementach roznych typow kontenerowych
+
+# Damian Cz., pytania STL zestaw 3
+
+Czy jako kontenery mozemy wykorzystywac zwykle tablice?
++ tak, ale zwykle nie sa one klasami i nie udostepniaja tym samym nie udostepniaja funkcji składowych begin() i end()
+- mozna, ale do projektow w domu, zawodowo bylbys skazany na wieczne potepienie
+- nie jest to mozliwe
+- zadne z powyzszych
+
+multiset od set rozni sie:
+- nazwa
++ w multiset elementy moga sie powtarzac
+- w multiset elementy sa nieposortowane
+- zadne z powyzszych
+
+sekcja przeznaczona do przechowywania automatycznych zmiennych lokalnych to:
+- heap (sterta)
++ stack (stos)
+- stack i heap (stos i sterta)
+- zadne z powyższych
+
+Funckja skladowa capacity() obiektu typu std::vector zwraca:
+- iterator wskazujacy na element
+- referencje na ostatni element w kontenerze
+- minimalna liczbe elementow jaka moze pomiescic kontener bez  wykonywania realokacji pamieci
++ maksymalna dlugosc tablicy kontenera wyrazona w liczbie elementow
+
+

@@ -1,0 +1,2 @@
+/home/krwi/wste/angelikaalicja/Quiz-project/build/CMakeFiles/Quiz.dir
+/home/krwi/wste/angelikaalicja/Quiz-project/build/CMakeFiles/Quiz_test.dir

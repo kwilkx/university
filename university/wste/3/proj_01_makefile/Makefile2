@@ -1,0 +1,19 @@
+# some makefile
+
+all: hello
+
+hello: main.o function.o hello.o
+	g++ main.o function.o hello.o -o hello
+
+main.o: main.cpp
+	g++ -c main.cpp
+
+function.o: function.cpp
+	g++ -c function.cpp
+
+hello.o: hello.cpp
+	g++ -c hello.cpp
+
+clean:
+	rm *o hello
+

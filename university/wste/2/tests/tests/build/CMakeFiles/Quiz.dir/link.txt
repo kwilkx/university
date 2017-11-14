@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/Quiz.dir/main.cpp.o CMakeFiles/Quiz.dir/operating_functions.cpp.o CMakeFiles/Quiz.dir/question.cpp.o CMakeFiles/Quiz.dir/quiz.cpp.o CMakeFiles/Quiz.dir/Game.cpp.o CMakeFiles/Quiz.dir/UserInOut.cpp.o  -o Quiz -rdynamic 

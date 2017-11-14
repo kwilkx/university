@@ -1,0 +1,2 @@
+/home/krwi/wste/UT/build/CMakeFiles/Main.dir
+/home/krwi/wste/UT/build/CMakeFiles/runTests.dir

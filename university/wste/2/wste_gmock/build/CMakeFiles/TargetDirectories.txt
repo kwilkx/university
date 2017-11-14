@@ -1,0 +1,16 @@
+/home/krwi/wste/wste_gmock/build/app/CMakeFiles/app.dir
+/home/krwi/wste/wste_gmock/build/app_test/CMakeFiles/app_test.dir
+/home/krwi/wste/wste_gmock/build/googletest/googlemock/CMakeFiles/gmock.dir
+/home/krwi/wste/wste_gmock/build/googletest/googlemock/CMakeFiles/gmock_main.dir
+/home/krwi/wste/wste_gmock/build/googletest/googlemock/gtest/CMakeFiles/gtest.dir
+/home/krwi/wste/wste_gmock/build/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir
+/home/krwi/wste/wste_gmock/build/googletest/googlemock/gtest/CMakeFiles/sample10_unittest.dir
+/home/krwi/wste/wste_gmock/build/googletest/googlemock/gtest/CMakeFiles/sample1_unittest.dir
+/home/krwi/wste/wste_gmock/build/googletest/googlemock/gtest/CMakeFiles/sample2_unittest.dir
+/home/krwi/wste/wste_gmock/build/googletest/googlemock/gtest/CMakeFiles/sample3_unittest.dir
+/home/krwi/wste/wste_gmock/build/googletest/googlemock/gtest/CMakeFiles/sample4_unittest.dir
+/home/krwi/wste/wste_gmock/build/googletest/googlemock/gtest/CMakeFiles/sample5_unittest.dir
+/home/krwi/wste/wste_gmock/build/googletest/googlemock/gtest/CMakeFiles/sample6_unittest.dir
+/home/krwi/wste/wste_gmock/build/googletest/googlemock/gtest/CMakeFiles/sample7_unittest.dir
+/home/krwi/wste/wste_gmock/build/googletest/googlemock/gtest/CMakeFiles/sample8_unittest.dir
+/home/krwi/wste/wste_gmock/build/googletest/googlemock/gtest/CMakeFiles/sample9_unittest.dir

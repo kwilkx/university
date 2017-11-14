@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/krwi/wste/wste_gmock/app/RTurtle.h
+Turtle.h
+/home/krwi/wste/wste_gmock/app/Turtle.h
+iostream
+-
+
+/home/krwi/wste/wste_gmock/app/Stage.h
+Turtle.h
+/home/krwi/wste/wste_gmock/app/Turtle.h
+
+/home/krwi/wste/wste_gmock/app/Turtle.h
+
+/home/krwi/wste/wste_gmock/app/main.cpp
+iostream
+-
+Stage.h
+/home/krwi/wste/wste_gmock/app/Stage.h
+RTurtle.h
+/home/krwi/wste/wste_gmock/app/RTurtle.h
+

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/krwi/wste/containers/auto.hpp
+iostream
+-
+
+/home/krwi/wste/containers/vector.cpp
+iostream
+-
+array
+-
+vector
+-
+list
+-
+map
+-
+auto.hpp
+/home/krwi/wste/containers/auto.hpp
+

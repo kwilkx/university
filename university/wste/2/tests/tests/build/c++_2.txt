@@ -1,0 +1,296 @@
+# To jest format pliku w ktorym zapisujemy pytania
+# oraz 4 odpowiedzi z zaznaczeniem odpowiedniej
+# Niech + oznacza prawidlowa odpowiedz
+# Znak - oznacza niepoprawna
+# Quiz powinien byc jednokrotnego wyboru.
+
+# Poziom 2
+
+# Prosze dopisywac swoje pytania
+
+#Pytania Angelika
+
+Skladniki klasy opatrzone etykieta protected sa dostepne:
++ w danej klasie i w klasach po niej dziedziczacych
+- wylacznie w danej klasie
+- wylacznie wszedzie poza klasa
+- zadne z podanych
+
+Ktore z ponizszych nie jest slowem kluczowym w C++?
++ extends
+- volatile
+- friend
+- this
+
+Jak nazywa sie funkcja skladowa, ktora powinna zostac ponownie zdefiniowana (nadpisana) w klasach pochodnych?
++ funkcja wirtualna
+- funkcja zaprzyjazniona
+- funkcja statyczna
+- funkcja stala
+
+W C++ do rzucania wyjatkow uzywa sie slowa: 
++ throw
+- raise
+- catch
+- emit
+
+Ktory operator jest operatorem potegowania w C++?
++ zaden z podanych
+- *.
+- **
+- ^^
+
+#Pawel D., pytania cpp zestaw 2
+
+Prawidlowa iteracja po wszystkich elementach tablicy 10 elementowej to:
+- for (int i = 1; i < 11; ++i)
+- for (int i = 0; i <= 10; ++i)
++ for (int i = 0; i < 10; ++i)
+- for (int i = 1; i < 10; ++i)
+
+W funkcji zdefiniowanej poza klasa              void foo(int& x)    przekazujemy pierwszy argument przez:
+- wartosc
++ referencje
+- wskaznik
+- zadna z powyzszych
+
+Najbardziej informatywna sygnatura dla funkcji sprawdzajacej czy dana wartosc liczbowa jest nieparzysta to:
+- bool checkIfGivenNumberIsOddAndReturnTrueOrFalse(int x);
+- bool isOddInt(int x);
++ bool isOdd(int x);
+- int oddOrEven(int x);
+
+Aby zwiekszyc czytelnosc kodu wartosci numeryczne mozemy zmienic na:
+- stringi
+- obiekty
++ enum
+- czytelnosc kodu jest niewazna
+
+Domyslnie dostep do wszystkich elementow klasy (class) jest ustawiony na:
+- public
++ private
+- protected
+- inherited
+
+# Pytania Filip
+
+Slowo kluczowe           auto        oznacza w C++11, ze:
++ typ danych bedzie automatycznie okreslony przez kompilator
+- nie ma takiej konstrukcji w c++
+- funkcja nic nie zwraca
+- uzytkownik nie jest zainteresowany zwracana wartoscia, a dzieki 'auto' kompilator nie zwraca bledu przy niezdeklarowanym typie danych
+
+Co oznacza taki zapis                 int i = *ptr
++ dereferencja ptr
+- referencja do ptr
+- alokacja pamieci dla i
+- zadne z powyzszych
+
+Ktorego z operatorow uzyjemy aby dostac sie do atrybutu (pola) obiektu klasy:
+- ..
+- *
++ .
+- zadne z powyzszych
+
+Konstruktor klasy jest uzywany do:
+- tworzenia obiektow
+- tworzenia klas
++ przypisania atrybutom (polom) wartosci poczatkowych
+- zadne z powyzszych
+
+Dlaczego petla for sie nie wykona w                   for(int i = 1, i < 10, i++):
+- poniewaz zmienna i trzeba rowniez zadeklarowac poza petla for
++ poniewaz zamiast przecinkow powinny byc sredniki
+- poniewaz musi wystapic preinkrementacja zamiast postinkrementacji
+- zadne z powyzszych
+
+#Konrad A., pytania cpp zestaw 2
+
+Jakimi symbolami wprowadzamy komentarze w C++:
+- ;
+- %
+- -- oraz {- -}
++ // oraz /**/
+
+Instrukcja        switch           to instrukcja:
+- skoku
++ wyboru
+- interacji
+- warunkowa
+
+Wczytanie danych do zmiennej odbywa sie poprzez:
+- writeln
++ cin>>
+- cin<<
+- cout>>
+
+Ktora etykieta oznacza, ze deklarowane za nia skladniki (funkcje i dane) sa dostepne tylko z wnetrza klasy:
+- public
+- protected
++ private
+- nie ma takiej etykiety
+
+Operator zakresu to:
++ ::
+- *
+- /
+- ^
+
+#Pytania Krzysiek
+
+Jezeli operator ^ to symetryczna roznica bitowa lub po prostu operacja XOR bitowego to prawdziwe jest:
+- 0 XOR 1 wynosi 0
+- 1 XOR 0 wynosi 0
+- 1 XOR 1 wynosi 1
++ dla wartosci 0 i 1 XOR dziala dokladnie tak samo jak dodawanie modulo 2
+
+Bloki try...catch
+- sluza wprowadzania polimorfizmu typow
+- do jednego bloku try nie moze byc kilku blokow catch
++ mozna zagniezdzac
+- blokow catch nie moze byc wiecej niz dziesiec
+
+Operator zasiegu
+- sluzy do odwolywania sie do zmiennych tymczasowych (na stosie) z dowolonej funkcji
+- sluzy do inkrementowania licznika petli
++ ma on postac     ::
+- nie moze pomoc w dostaniu sie do przeslonietej zmiennej globalnej
+
+Jaka instrukcja mozemy sie wydostac z wielokrotnie zagniezdzonej petli?
+- continue
+- esceape
+- break
++ goto
+
+Instrukcja switch
+- sluzy do podejmowania decyzji wylacznie na podstawie wartosci jednej zmiennej
+- wybor moze byc dokonywany na podstawie wartosci liczby calkowitej
+- wybor moze byc dokonywany na podstawie kodu znaku ASCII
++ wszystkie powyzsze
+
+#Rafał P 
+
+Tablice dynamiczne to takie:
+- gdzie rozmiar tablicy jest staly
++ gdzie rozmiar tablicy moze sie zmieniac w trakcie wykonywania programu
+- gdzie do tablicy dynamicznie jest przydzielany wskaznik
+- zadna z odpowiedzi nie jest prawidlowa
+
+Abstrakcyjna klasa
+- klasa musi zawierac wszystkie czyste funkcje wirtualne
++ klasa musi zawierac co najmniej jedna czysta funkcje wirtualna 
+- klasa nie moze zawierac czystej funkcje wirtualnej
+- klasa musi zawierac czysta funkcje wirtualna zdefiniowana poza klasa
+
+Jesli klasa ma wiele bezposrednich klas bazowych to jest to:
++ dziedziczenie wielokrotne
+- dziedziczenie pokoleniowe
+- dziedziczenie grupowe
+- dziedziczenie pochodne
+
+Konstruktor
++ jest wywolany w momencie tworzenia obiektu
+- musi posiadac przynajmniej jeden parametr
+- musi byc zdefiniowany w kazdej funkcji
+- jest wywolany w momencie niszczenia obiektu
+
+Klasa
+- jest zmienna przechowujaca wiele wartosci
++ opisuje obiekt
+- tworzy obiekt o danej nazwie15 wierszach, 5 kolumnach
+- musi miec przynajmniej jedna wlasciwosc prywatna
+
+Konstruktor:
++ jest wywolywany w momencie tworzenia obiektu
+- musi posiadac przynajmniej jeden argument
+- jest funkcja wirtualna
+- jest wywolywany w momencie niszczenia obiektu
+
+Operacje powodujace wystapienie wyjatku powinny byc umieszczone w bloku:
+- catch
++ try
+- exception
+- throw
+
+Klasa, od ktorej inna klasa dziedziczy to:
+- predykat
+- przewodnik
+- klasa dziedziczna
++ klasa bazowa
+
+Aby zabronic klasie pochodnej dostepu do elementow klasy bazowej pola skladowe w klasie bazowej musza byc ujete w:
+- static
+- public
++ private
+- protected
+
+Destruktor poprzedzony jest znakiem:
+- !
+- ?
++ ~
+- &
+
+#Damian Cz., pytania cpp zestaw 2
+
+Inicjalizacja                   int tablica[3] = {1,2};             spowoduje ze: 
+- ostatni element tablicy bedzie mial wartosc 0 
++ utworzona zostanie tablica dwuelementowa 
+- ostatni element tablicy będzie mial wartosc nieokresloną
+- zadne z powyższych
+
+Wskaz NIEPRAWIDLOWE deklaracje funkcji:
+- int foo()
++ foo(int)
+- void foo(int liczba)
+- auto foo() -> int
+
+Jaka liczba pojawi sie na ekranie?        int a = 3; std::cout << (a=6) << std::endl;
+- 7
++ 6
+- 3
+- zadna z powyższych
+
+Co to sa argumenty wywolania funkcji?
++ argumenty, ktore  z kazdym jej wywolaniem moga byc inne
+- zunifikowane argumenty, ktorymi funkcje testowane sa przez kompilator
+- argumenty, ktorymi moga byc wylacznie statyczne zmienne w kodzie
+- zadna z powyzszych odpowiedzi nie jest prawidlowa
+
+Klasa, od ktorej inna klasa dziedziczy to:
+- predykat
+- metoda
+- klasa dziedziczna
++ klasa bazowa
+
+#Magdalena B., pytania cpp zestaw 2
+
+Jak zadeklarowac funkcje typu void bez zadnych argumentow?
++ void foo();
+- foo() void;
+- void() foo();
+- foo void();
+
+Wybierz inna definicje obiektow:
+- czlonek klasy
+- wspolnik klasy
+- atrybut klasy
++ instancja klasy
+
+Wybierz operator zasiegu:
+- ->
++ ::
+- -
+- :
+
+Wybierz kompilator C++ dla systemu Linux:
+- cl
+- dmd
+- ghc
++ g++
+
+Jezyk programowania obiektowego to:
+- Eiffel
+- Smalltalk
+- Java
++ wszystkie powyzej
+

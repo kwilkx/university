@@ -1,0 +1,266 @@
+# To jest format pliku w ktorym zapisujemy pytania
+# oraz 4 odpowiedzi z zaznaczeniem odpowiedniej
+# Niech + oznacza prawidlowa odpowiedz
+# Znak - oznacza niepoprawna
+# Quiz powinien byc jednokrotnego wyboru.
+
+# Poziom 1
+
+# Prosze dopisywac swoje pytania
+
+# Pawel D., pytania STL zestaw 1
+
+array, vector, list to:
+- iteratory
++ kontenery
+- algorytmy
+- zadne z powyzszych
+
+stack to struktura typu:
+- FIFO (first-in first-out)
++ LIFO (last-in first-out)
+- LILO (last-in last-out)
+- FILO (first-in last-out)
+
+queue to struktura typu:
++ FIFO (first-in first-out)
+- LIFO (last-in first-out)
+- LILO (last-in last-out)
+- FILO (first-in last-out)
+
+Co zrobi push_back(10) zastosowany do obiektu wektora std::vector<int>:
++ doda element na na koncu wektora
+- usunie element na koncu wektora
+- doda element na poczatku wektora
+- usunie element na poczatku wektora
+
+rbegin to
+- modyfikator
+- operator
++ iterator
+- indeksator
+
+#Pytania Filip
+
+Do kontenerow STL naleza:
+- map
+- multiset
+- set
++ wszystkie z wyzej wymienionych
+
+Ktora z funkcji nie jest obslugiwana przez stos std::stack?
++ reverse()
+- empty()
+- size()
+- push()
+
+Do obszarow pamieci dynamicznej nalezy:
+- stack (stos)
++ heap (sterta)
+- stack i heap (stos i sterta)
+- zadme z powyzszych
+
+Sekcja przeznaczona do przechowywania automatycznych zmiennych lokalnych to:
+- heap (sterta)
++ stack (stos)
+- stack i heap (stos i sterta)
+- zadne z powyzszych
+
+Co zrobi funkcja push() w kolejce std::queue:
++ doda element na koniec kolejki
+- doda element na poczatek kolejki
+- wyznaczy srodek kolejki i tam doda element
+- nic nie doda poniewaz funkcja push() nie dziala dla queue
+
+#Konrad A., pytania STL zestaw 1
+
+Kontener to:
++ struktura danych
+- klasa virtualna
+- tylko i wylacznie zmienna
+- zadne z powyzszych
+
+Aby moc skorzystac z kontenera stos w przestrzeni std w C++, nalezy dolaczyc plik naglowkowy:
+- <math>
+- <iostream>
++ <stack>
+- zadne z powyzszych
+
+Metoda ktora sluzy do odczytania lub modyfikacji wartosci umieszczonej na szczycie stosu to:
+- push
++ top
+- cout
+- zadne z powyzszych
+
+Funkcja unarna to inaczej:
++ Funkcja z jednym argumentem
+- Funkcja z dwoma argumentami
+- Funkcja bez argumentow
+- zadne z powyzszych
+
+Funkcja bez argumentow to:
++ funkcja nularna (np. generator)
+- funkcja binarna
+- generator adaptacyjny
+- funkcja unarna
+
+#Magdalena B., pytania stl zestaw 1
+
+Ktory z plikow naglowkowych nie znajduje sie w bibliotece standardowej C++?
++ <instream>
+- <iostream>
+- <istream>
+- <ostream>
+
+Ktora z funkcji nie jest zwiazana ze stosem std::stack:
+- empty();
+- size();
+- top();
++ front();
+
+Wybierz poprawny sposob usuwania elementow (np. 5) z poczatku kolejki              std::queue<int> kolejka_liczb:
++ kolejka_liczb.pop(5);
+- kolejka_liczb.front(5);
+- kolejka_liczb[] = 5;
+- kolejka_liczb.delete(5);
+
+Ktory z ponizszych aspektow dotyczy kontenera lista std::list?
+- dostep tylko przez iteratory
+- dodawanie i usuwanie elementow jest bardzo szybkie i odbywa sie w stalym czasie
+- adresy elementow niezmienne
++ wszystkie powyzej
+
+Wybierz poprawny sposob dodawania elementow (np. 5) na koncu wektora           std::vector<int> values:
+- values.add(5);
+- values[] = 5;
++ values.push_back(5);
+- values.pop_back(5);
+
+#Pytania Krzysiek
+
+Ktore z ponizszych zwroci (teoretycznie) najwieksza wartosc wiedzac ze:          std::string s("test");
+- s.length();
+- s.capacity();
++ s.max_size();
+- wszystkie zwroca te sama wartosc
+
+Kontenery sekwencyjne to:
+- std::array
+- std::vector
+- std::deque
++ wszystkie powyższe
+
+Kolejka std::deque:
+- posiada metode push_back ktora przesuwa wszystkie elementy na koniec i wstawia nowy na poczatek
++ umozliwia dodawanie oraz usuwanie elementow na poczatku i koncu kolejki w czasie stalym O(1)
+- posiada metode clear ktora zamienia na zera wszystkie elementy z kontenera
+- posiada metode insert ktora moze wstawic tylko jeden element do kontenera
+
+Zbior std::set
+- to zbior ktory jest skonstruowany tak aby wyszukiwanie po pozycji bylo szybkie
+- elementy w zbiorze sa uporzadkowane od najwiekszego do najmniejszego
++ jest kontenerem asocjacyjnym w ktorym elementy sa kluczami
+- wartosci elementow nie sa unikalne
+
+Klasa std::pair
+- umozliwia potraktowanie dwoch wartosci jako pojedynczego elementu
+- jezeli funkcja ma zwracac dwie zmienne, warto wykorzystac do tego pare
+- typ std::pair zostal zadeklarowany nie jako klasa, ale jako struktura, z wszystkimi skladowymi jako publicznymi
++ wszystko powyzsze jest prawda
+
+#Rafał P
+
+W jezyku C++ dolaczamy  wskazany plik zrodlowy za pomoca dyrektywy:
+- #else
++ #include
+- #string
+- #stdio
+
+Plik naglowkowy <cmath> odpowiada za:
+- funkcje obslugi ekranu i klawiatury
+- dzialania na lancuchach znakow
++ funkcje matematyczne
+- operacje wektorowe
+
+Funkcja printf() sluzy do:
++ wyprowadzania danych na ekran
+- wprowadzania danych do programu
+- podania polecenia do drukarki
+- pobrania danych z ekranu
+
+Funkcja matematyczna        double sqrt(double x)       oblicza:
++ pierwiastek kwadratowy
+- najwieksza liczba calkowita mniejsza od x
+- najmniejsza liczba calkowita wieksza od x
+- liczba podzielna przez kwadrat x
+
+Kontener std::vector nalezy uzywac gdy: 
+- do poszczegolnych elementow chcemy dostawac sie poprzez indeks
+- chcemy przegladac elementy w dowolnej kolejnosci,
+- dodajemy i usuwamy elementy jedynie z konca kolekcji
++ wszystkie odpowiedzi sa poprawne
+
+#Zestaw 1
+
+List std::list to:
+- iterator
+- algorytm
++ kontener
+- funkcja wirtualna
+
+Wielkosc kontenera std::array:
++ jest stala
+- jest zmienna
+- moze byc zmieniona tylko przez kompilator
+- moze byc zmieniona dowolona ilosc razy
+
+Kontenerem sekwencyjnym NIE jest:
+- vector
+- array
+- deque
++ set
+
+Kontenerem asocjacyjnym jest:
+- vector
+- deque
+- list
++ map
+
+Kontener map przechowuje elementy:
++ w parach jako kombinacja klucza i wartosci (key, value)
+- w losowym porzadku
+- w dodatkowych strukturach innych niz pary
+- tylko jako wskazniki do zewnetrznych tablic
+
+# Damian Cz., pytania STL zestaw 1
+
+Plik nagłowkowy <cmath> odpowiada za:
+- funkcje obslugi ekranu i klawiatury
+- dzialania na lancuchach znakow
++ funkcje matematyczne
+- zadne z powyzszych
+
+Klasa std::unique_ptr:
+- to klasa definiowana w pliku nagłowkowym <memory>
+- to, ktory wskaznik gwarantuje istnienie dokladnie jednego wskaznika do obiektu wskazywanego w danym momencie
+- to tzw. inteligentny wskaznik
++ wszystkie odpowiedzi są prawidlowe
+
+Do porownania rownosci dwoch obiektow std::vector<T> c1 i c2 uzywa się operacji:
++ c1 == c2
+- c1 = c2
+- swap(c1,c2)
+- nie ma mozliwosci porownywania zawartosci wectorow 
+
+Roznica między mapami a multimapami polega na:
++ multimapy dopuszczaja powtorzenia
+- kontenery map nie uzywają pary klucz wartosc
+- kontenery multimap nie uzywaja pary klucz wartosc
+- zadne z powyzszych
+
+Rozwiniecie skrotu STL to:
+- system template library
++ standard template library
+- static template library
+- zadne z powyzszych
+

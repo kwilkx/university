@@ -1,0 +1,212 @@
+# To jest format pliku w ktorym zapisujemy pytania
+# oraz 4 odpowiedzi z zaznaczeniem odpowiedniej
+# Niech + oznacza prawidlowa odpowiedz
+# Znak - oznacza niepoprawna
+# Quiz powinien byc jednokrotnego wyboru.
+
+# Poziom 2
+
+# Prosze dopisywac swoje pytania
+
+# Pawel D., pytania STL zestaw 2
+
+Iterator zwracany przez funkcje skladowa end() kontenera wskazuje:
+- na ostatni element
++ 1 miejsce za ostatnim elementem
+- 1 miejsce przed ostatnim elementem
+- koniec programu
+
+Funkcja skladowa front() kontenera daje nam dostep do
++ pierwszego elementu
+- 1 miejsce za pierwszym elementem
+- 1 miejsce przed pierwszym elementem
+- ostatniego elementu
+
+Type std::set przechowuje elementy:
+- nieposortowane i unikalne
++ posortowane i unikalne
+- posortowane, moga sie powtarzac
+- nieposortowane, moga sie powtarzac
+
+Rozmiar zaalokowanej pamieci uzywanej przez obiekt typu std::vector:
++ moze ulegac zmianie
+- jest staly
+- moze ulec zmianie tylko raz
+- std::vector nigdy nie alokuje pamieci
+
+Operator [] w przypadku typu std::vector:
+- zadne z ponizszych
+- std::vector nie posiada operatora []
+- wstawia kilka elementow do obiektu std::vector
++ daje dostep do elementu w wektorze
+
+#Konrad A., pytania STL zestaw 2
+
+Kontener std::bitset to:
++ pole bitowe zawierajace dowolna, lecz ustalona z gory liczbe bitow
+- pole bitowe zawierajace zawsze stala i jednakowa liczbe bitow
+- pole bitowe zawierajace niekontrolowana liczbe bitow
+- rodzaj mapy
+
+Obiekt funkcyjny to:
++ typ ze zdefiniowanym operatorem wywolania funkcji ()
+- klasa ze wszystkimi polami i funkcjami skladowymi prywatnymi
+- inna nazwa mapy
+- wartosc liczby zmiennoprzecinkowej
+
+Pliki naglowkowe standardowej biblioteki jezyka C++ umieszczone sa w:
++ <>
+- ''
+- ""
+- ()
+
+Stala zlozonosc obliczeniowa to:
++ O(1)
+- O(log(n))
+- O(n)
+- zadne z powyzszych
+
+Slowo kluczowe   noexcept   zastosowane do funkcji oznacza, ze:
++ w przypadku rzucenia wyjatku przez funkcje wywolywany jest std::terminate
+- funkcja nie rzuca wyjatkow
+- nie ma takiego slowa kluczowego
+- funkcja nic nie zwraca
+
+#Pytania Filip
+
+Zlozonosc liniowa oznaczana jest jako:
+- O(1)
+- O(log(n))
++ O(n)
+- O(n^2)
+
+Iteratory mozna wykorzystac do:
+- wyszukiwania danych
+- kasowania wybranego elementu
+- kopiowania wybranego zakresu danych do innego kontenera
++ wszystkie odpowiedzi sa poprawne
+
+Funkcja skladowa capacity() kontenera zwraca:
+- iterator wskazujacy na element
+- referencje na ostatni element w kontenerze
+- minimalna liczbe elementow jaka moze pomiescic kontener bez wykonywania realokacji pamieci
++ maksymalna dlugosc tablicy kontenera wyrazona w liczbie elementow
+
+Funkcja skladowa rbegin() kontenera zwraca iterator odwrotny wskazujacy na:
+- pierwszy element
+- drugi element 
++ ostatni element
+- zadna z powyzszych 
+
+#/Rafał P
+
+Typ reprezentujacy lancuch znakow jest zdefiniowany w pliku naglowkowym:
+- <chrono>
++ <string>
+- <cstdio>
+- <vector>
+
+Za definicje klas umozliwiajacych realizacje C++ operacji wejscia/wyjscia odpowiada plik naglowkowy:
+- <cstdio>
++ <iostream>
+- <map>
+- <string>
+
+Znacznikiem konca lancucha znakow jest znak o kodzie:
+- %0
++ \0
+- #0
+- \end
+
+
+#Magdalena B., pytania stl zestaw 2
+
+Kontener w STL to:
+- lista
+- vector
+- deque
++ wszystkie powyzej
+
+Zapis O(1) oznacza:
++ stala zlozonosc
+- zlozonosc logarytmiczna
+- zlozonosc liniowa
+- zlozonosc wielomianowa
+
+Zmienna przechowujaca iterator do wektora        vector<int> vect      to
+- vect::iterator i;
++ auto i = vect.begin();
+- vector::iterator = vect.begin();
+- vector<int>::iterator;
+
+Struktura danych, w ktorej dostep do danych jest mozliwy tylko do elementu o najwyzszym priorytecie, a dane w niej sa uporzadkowane nierosnaco (albo niemalejaco) to:
++ priority_queue
+- stack
+- queue
+- list
+
+Wybierz poprawny sposob usuwania jednego elementu z konca wektora          vector<int> values
+- values.clear();
+- values.delete();
+- values.push_back();
++ values.pop_back();
+
+# Damian Cz., pytania STL zestaw 2
+
+Do obliczenia odległosci miedzy iteratorami sluzy funkcja:
++ distance() 
+- advance()
+- next()
+- prev()
+
+Funkcja swap() słuzy do
+- zamienia kolejnosc wszystkich elementow w kontenerze
++ podmienia zawartosc dwoch obiektow
+- porownuje dwa kontenery 
+- zadna z powyzszych nie jest prawdziwa
+
+Roznica miedzy wektorem std::vector a kolejka std::deque polega na tym, ze:
+- wektor dedykowany jest wyłacznie do elementow typu bool
++ kolejka umozliwia szybkie wstawianie elementow zarowno na koncu jak i na poczatku kontenera
+- nie roznia sie miedzy soba
+- std::vector nigdy nie alokuje pamieci dynamicznej
+
+Aby sprawdzic czy std::vector jest pusty uzyjemy funkcji skladowej
+- swap()
+- clear()
+- erase()
++ empty()
+
+#Pytania Krzysiek
+
+Funkcja skladowa capacity() obiektu typu std::vector to
+- procedura sprawdzajaca pojemnosc pojedynczego elementu wektora
++ metoda zwracajaca maksymalna liczbe elementow jaka moze pomiescic kontener bez wykonywania realokacji pamieci
+- metoda systemowa zwracajaca dostepna pamiec do alokacji wektorow
+- zadna z powyzszych
+
+Funkcja skladowa rend() obiektu typu std::vector
+- zwraca iterator odwrotny wskazujacy na element wystepujacy bezposrednio przed pierwszym elementem
+- moze byc wywolana w kontekscie const
+- w przypadku gdy kontener jest pusty to iteratory zwracane przez metody rend oraz rbegin sa sobie rowne
++ wszystkie powyzsze
+
+Kontenery asocjacyjne to:
+- stack, queue, priority_queue
+- array, vector, deque, list
++ set, multiset, map, multimap
+- zadne z powyzszych
+
+Krotki (tuples)
+- wprowadzone jako rozszerzenie koncepcji par na dowolna liczbe elementow dowolnego typu
+- krotki reprezentuja niejednorodna liste elementow, ktorych typy sa okreslane albo wnioskowane na etapie kompilacji
+- mozna tworzyc przez deklaracje jawna albo niejawnie jako wartosc zwracana z funkcji pomocniczej make_tuple()
++ wszysko powyzsze jest prawda
+
+Dla typow modelujacych kontenery (np. std::vector)
+- nie moga byc uzywane wewnatrz innych klas kontenerowych
++ zarzadzaja kolekcjami elementow
+- we wszystkich kontenerach ma znaczenie uporzadkowanie elementow
+- wyszukiwanie elementow w kontenerach ma minimalnie zlozonosc liniowa
+
+

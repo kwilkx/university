@@ -1,0 +1,17 @@
+# This is some complicated makefile
+# To understand all please refer to the documentation
+
+CFLAGS=-c -Wall
+LDFLAGS=
+SOURCES=main.cpp hello.cpp function.cpp
+OBJECTS=$(SOURCES:.cpp=.o)
+EXECUTABLE=hello
+
+all: $(SOURCES) $(EXECUTABLE)
+	
+$(EXECUTABLE): $(OBJECTS)
+	$(CC) $(LDFLAGS) $(OBJECTS) -o $@
+
+.cpp.o:
+	$(CC) $(CFLAGS) $< -o $@
+

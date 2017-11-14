@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/app_test.dir/main.cpp.o CMakeFiles/app_test.dir/__/app/Stage.cpp.o  -o app_test -rdynamic ../googletest/googlemock/libgmock.a -lpthread -Wl,-Bstatic -lgmock -Wl,-Bdynamic -lpthread -Wl,-Bstatic -lgmock -Wl,-Bdynamic 

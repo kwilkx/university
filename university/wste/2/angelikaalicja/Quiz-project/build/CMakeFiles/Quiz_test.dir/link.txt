@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/Quiz_test.dir/main_test.cpp.o CMakeFiles/Quiz_test.dir/operatingfunctions.cpp.o CMakeFiles/Quiz_test.dir/question.cpp.o CMakeFiles/Quiz_test.dir/quiz.cpp.o  -o Quiz_test -rdynamic /usr/local/lib/libgtest.a /usr/local/lib/libgtest_main.a -lpthread 

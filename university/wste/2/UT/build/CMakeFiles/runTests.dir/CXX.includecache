@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/krwi/wste/UT/auto.hpp
+iostream
+-
+
+/home/krwi/wste/UT/test.cpp
+iostream
+-
+stdlib.h
+-
+auto.hpp
+/home/krwi/wste/UT/auto.hpp
+gtest/gtest.h
+-
+

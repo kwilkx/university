@@ -1,0 +1,6 @@
+/home/krwi/wste/google_googletest/build/app/CMakeFiles/app.dir
+/home/krwi/wste/google_googletest/build/app_test/CMakeFiles/app_test.dir
+/home/krwi/wste/google_googletest/build/googletest/googlemock/CMakeFiles/gmock.dir
+/home/krwi/wste/google_googletest/build/googletest/googlemock/CMakeFiles/gmock_main.dir
+/home/krwi/wste/google_googletest/build/googletest/googlemock/gtest/CMakeFiles/gtest.dir
+/home/krwi/wste/google_googletest/build/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir

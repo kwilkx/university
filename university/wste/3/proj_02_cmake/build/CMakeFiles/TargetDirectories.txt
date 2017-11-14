@@ -1,0 +1,1 @@
+/home/krwi/university/wste/3/proj_02_cmake/build/CMakeFiles/App.dir

@@ -1,0 +1,276 @@
+# To jest format pliku w ktorym zapisujemy pytania
+# oraz 4 odpowiedzi z zaznaczeniem odpowiedniej
+# Niech + oznacza prawidlowa odpowiedz
+# Znak - oznacza niepoprawna
+# Quiz powinien byc jednokrotnego wyboru.
+
+# Poziom 3
+
+# Prosze dopisywac swoje pytania
+
+#Pytania Angelika
+
+Klasa dziedziczaca nie dziedziczy z klasy bazowej:
++ kazda z powyzszych odpowiedzi
+- konstruktorow i destruktora
+- przeladowanych operatorow
+- funkcji zaprzyjaznionych
+
+Wyrazenie          const int* wsk           to:
++ wskaznik do stalego obiektu
+- staly wskaznik
+- wskaznik staly do obiketu stalego
+- zadna z podanych odpowiedzi
+
+Ktore z ponizszych wyrazen jest nieprawdilowa dyrektywa preprocesora jezyka C?
++ #ifundef
+- #ifdef
+- #endif
+- #elif
+
+Ktore z ponizszych nie jest standardowym wyjatkiem w C++?
++ std::bad_creat
+- std::bad_alloc
+- std::bad_cast
+- std::bad_typeid
+
+Kod:                 class child: public parent1, public parent2 { }           to przyklad:
++ dziedziczenia wielobazowego
+- dziedziczenia prywatnego
+- dziedziczenia wirtualnego
+- dziedziczenia hierarhicznego
+
+#Pawel D., pytania cpp zestaw 3
+
+Tworzac zmienna ze slowem            const           mozemy powiedziec, ze wartosc przez nia przechowywana:
++ bedzie ona dla nas "read only" (tylko do odczytu)
+- bedzie ona dla nas "write only" (tylko do zapisu)
+- bedzie ona dla nas "read-write" (do odczytu i zapisu)
+- zadne z podanych
+
+Po wykonaniu kodu                  i = 1; j = i++;           zmienne beda wynosic:
++ i = 2, j = 1
+- i = 2, j = 2
+- i = 1, j = 1
+- i = 1, j = 2
+
+Po wykonaniu kodu               i = 1; j = ++i;              zmienne beda wynosic:
+- i = 2, j = 1
++ i = 2, j = 2
+- i = 1, j = 1
+- i = 1, j = 2
+
+Tworzac konstruktor kopiujacy musimy szczegolnie uwazac na:
++ klasy zawierajace wskazniki
+- inkrementacje
+- algorytmy
+- biblioteki
+
+Destruktor dla                          class MojaKlasa            to:
+- *MojaKlasa();
++ ~MojaKlasa();
+- MojaKlasa(destroy);
+- &MojaKlasa();
+
+#Konrad A., pytania cpp zestaw 3
+
+W jaki sposob dokonujemy jawnego wywolania konstruktora dla klasy    Klasa:
++ Klasa(argumenty)
+- Klasa.new()
+- Klasy::(argumenty)
+- wszystkie odpowiedzi sa bledne
+
+Funkcja czysto wirtualna to taka funkcja ktora:
++ nie moze zostac wywolana w klasie wyprowadzonej bez jej wczesniejszego przeladowania
+- nie ma deklaracji
+- nie ma takiej funkcji
+- wszystkie sa poprawne
+
+Klasa, od ktorej inna klasa dziedziczy to:
++ klasa bazowa
+- predykat
+- przwodnik
+- klasa pierwotna
+
+Wywolanie metody rysuj na rzecz obiektu pisak egzemplarza klasy malarz to:
++ pisak.rysuj();
+- rysuj();
+- malarz.pisak();
+- malarz.rysuj();
+
+Konstruktor sluzy do:
++ inicjalizacji pól obiektu klasy
+- wylacznie do odczytu pol klasy
+- usuwania obiektu z pamieci
+- konstruowania metod
+
+#Rafał P
+
+Dyrektywy kompilacji warunkowej:
++ pozwalaja wybiorczo kompilowac fragmenty kodu zrodlowego
+- umozliwiaja jedynie deklaracje zmiennych roznych typow wspoldzielacych miejsce w pamieci
+- wylacznie pozwalaja dokonac wyboru jednej z wielu zmiennych
+- tylko i wylacznie warunkuja uzycie pamieci w czasie wykonywania programu
+
+Funkcja wszystkie potrzebne dane do wykonania powinna otrzymywac:
+- ze zmiennych globalnych
++ przez argumenty i parametry
+- przez deklaracje zmiennych lokalnych 
+- przez podanie adresu 
+
+W jezyku C++ jest mozliwosc deklarowania funkcji ktore posiadaja takie same nazwy ale maja rozne interfejsy. Sa to:
+- funkcje przeciazone
+- funkcje przeladowane
++ obie odpowiedzi sa prawidlowe
+- zadna odpowiedz nie jest prawidlowa
+
+#Magdalena B., pytania cpp zestaw 3
+
+Ktorego operatora nie mozna przeladowac?
++ ::
+- %
+- /
+- ()
+
+Ktory wskaznik przechowuje zawsze aktualny adres aktywnego obiektu?
+- new
+- auto_ptr
++ this
+- self
+
+Ktory specyfikator pamieci masowej jest uzywany do modyfikowania zmiennej skladowej, nawet jesli obiekt klasy jest obiektem stalym?
++ mutable
+- register
+- static
+- auto
+
+Gdzie w pamieci przechowywane sa obiekty utworzone przy uzyciu operatora new?
+- stos (stack)
++ sterta (heap)
+- cache
+- inny obszar pamieci
+
+Ktory zapis przedstawia czysta funkcje wirtualna?
+- virtual void f()=0 {}
+- void virtual f()=0 {}
+- virtual void f() {} = 0;
++ zaden z powyzszych
+
+#Pytania Filip
+
+Po co sa stosowane destruktory wirtualne:
++ aby zapewnic wywolanie wszystkich destruktorow klas pochodnych
+- tylko i wylacznie aby w czasie destrukcji obiektu zostal wywolany rowniez destruktor klasy bazowej
+- aby uniknac bledu kompilacji
+- zadne z powyzszych
+
+Obiekty okreslone jako protected sa dostepne dla:
++ tej klasy oraz klas dziedziczacych
+- tylko dla tej klasy
+- dla wszystkich
+- zadne z powyzszych
+
+Gdzie tworzone sa obiekty przy pomocy operatora 'new':
++ na stercie
+- na stosie
+- w zaleznosci gdzie jest wolna pamiec
+- zadne z powyzszych
+
+Co sie stanie jezeli w aplikacji zostanie uzyta zewnetrzna statyczna biblioteka ale nie zostanie ona podana jawnie do linkera
++ bedzie blad linkowania
+- nic, kompilator sam zlinkuje
+- nastapi blad kompilacji
+- w momencie wywolania funkcji pojawi sie komunikat o bledzie
+
+Jak uzyskac dostep do elementow skladowych wskaznika do struktury lub klasy:
+- .
++ ->
+- *
+- zadne z powyzszych
+
+#Pytania Krzysiek
+
+Funkcja inline to:
+- tylko i wylacznie funkcja rekurencyjne, typowy kandydat do optymalizacji
++ moze wykonywac sie szybciej niz zwykla funkcja
+- spowoduje wygenerowanie wielokrotnie mniejszego objetosciowo programu
+- zadne z powyzszych nie jest prawdziwe
+
+Wskaz prawidlowa deklaracje wskaźnika na funkcje
+- int (*f1) (double);
+- using f2 = void (int);
+- double* (*f3) (int, int);
++ wszystkie sa poprawne
+
+Ktore ze stwierdzen jest najpelniejsze:
+- Deklaracja funkcji to taki prototyp skladajacy sie z: typu zwracanego przez funkcje, nazwy funkcji, listy typow parametrow oraz argumentow funkcji
+- Sygnatura funkcji sklada sie z nazwy i listy parametrow oraz argumentow. Typ zwracany nie jest czescia sygnatury
+- Moga istniec dwie funkcje o tej samej nazwie
++ Wszystkie powyzsze stwierdzenia sa prawdziwe
+
+Wyrazenia lambda
+- funkcje te nie posiadaja ciala lecz posiadaja jedynie nazwy
+- argumenty wyrazenia lambda nadaje sie w nawiasach kwadratowych
++ typ zwracanej wartosci w wyrazeniu lambda okresla sie po symbolu strzalki ->
+- zapisy w ciele funkcji stworzonej przy pomocy wyrazenia lambda sa zupelnie inne niz w zwyklych funkcjach C++
+
+l-value:
+- wszystkie stale const sa l-value
+- kazde r-value jest rownoczesnie l-value
++ okresla sie jako dowolny obiekt, ktory moze wystapic po lewej stronie instrukcji przypisania
+- wskaźnik nie moze pokazywac na obiekt l-value
+
+#Zestaw 3
+
+Parametrem konstruktora kopiujacego jest:
+- wartosc obiektu
++ referencja do obiektu
+- wskaznik do obiektu
+- nie ma parametrow
+
+Ktory operator jest uzywany do dostepu do struktury przez wskaznik?
++ ->
+- >>
+- ::
+- .
+
+Ile konstruktorow domyslnych dozwolonych jest dla 1 klasy?
++ jeden
+- dwa
+- trzy
+- nieograniczona ilosc
+
+#Damian Cz., pytania cpp zestaw 3
+
+W klasie std:string funkcja size():
+- wskazuje rozmiar uzytej i zarezerwowanej pamieci dla danego stringu
++ zwraca liczbe znakow danego stringa
+- zwraca zawsze stala wartosc niezaleznie od wartosci stringa
+- w tej kasie nie jest mozliwa do uzycia
+
+Czy funkcja moze wywoływac sama siebie: 
++ tak, proces taki nazywa się rekurencja
+- tak, proces taki nazywa się polimorfizmem
+- tak, ale dopiero w C++ 14
+- nie, nie jest to mozliwe
+
+Czy mozna stworzyc w klasie funkcje skladowa o takiej samej nazwie, jak istniejaca funkcja globalna? 
++ tak, bedzie to tzw. zasłonięcie nazwy
+- jest to bład
+- nie jest to mozliwe
+- tak, ale musimy stworzyc inne argumenty formalne
+
+Funkcja czysto wirtualna to taka funkcja ktora:
++ nie ma definicji
+- nie ma deklaracji
+- nie przewiduje argumentow
+- wszystkie powyzsze odpowiedzi sa prawidłowe
+
+Co to jest polimorfizm?
+- jest to dziedziczenie z klasy bazowej
+- jest to funkcja wirtualna
++ jest to mozliwosc opisania wiecej niz jednym typem tej samej wartosci
+- jest to mozliwosc uzycia dynamic_cast
+
+
+

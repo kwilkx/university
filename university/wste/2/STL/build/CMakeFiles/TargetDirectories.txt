@@ -1,0 +1,1 @@
+/home/krwi/wste/STL/build/CMakeFiles/STL.dir

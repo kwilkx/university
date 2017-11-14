@@ -1,0 +1,2 @@
+/home/krwi/wste/mock/build/CMakeFiles/App.dir
+/home/krwi/wste/mock/build/CMakeFiles/AppTest.dir

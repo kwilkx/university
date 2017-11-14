@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/app.dir/main.cpp.o CMakeFiles/app.dir/RTurtle.cpp.o CMakeFiles/app.dir/Stage.cpp.o  -o app -rdynamic 

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/sample6_unittest.dir/samples/sample6_unittest.cc.o  -o sample6_unittest  -L/home/krwi/wste/wste_gmock/build/googletest/googlemock/gtest/src -rdynamic libgtest_main.a libgtest.a -lpthread -Wl,-rpath,/home/krwi/wste/wste_gmock/build/googletest/googlemock/gtest/src 

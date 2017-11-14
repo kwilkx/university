@@ -1,0 +1,30 @@
+- konstruktor kopiujący
+- przeładowywanie metod
+- wskaźnik, referencja, kopiowanie
+- operatory rzutowania 
+- szablony
+- polimorfizm
+- dziedziczenie
+- różnice między C/C++ a webowymi/interpretowanymi jezykami
+- rodzaje pamieci
+- co to jest bajt
+- co to jest slowo maszynowe, ile ma bajtow
+- endianess (C/C++ sprawdzic czy dany procesor wykorzystuje BE czy LE)
+- jak tworzone są nowe procesy, jak są zarządzane, jak wymieniają się informacjami
+- wywłaszczanie procesów
+- maskowanie bitów (C/C++ dany 16-bitowy rejestr kontrolny o polach znaczacych. Korzystajac z maskowania zaladowac go odpowiednimi wartosciami)
+- co to proces, wątek.
+- proces bootowania
+- biblioteki statyczne/dynamiczne
+- dynamiczny przydział pamięci
+- RISC a CISC, Harvard a Von Neumann
+- architektury x86/arm
+- roznice miedzy klasami w C++ a strukturami w C
+- roznice miedzy uniami a strukturami w C
+- przerwania, zrodla przerwan, obsluga przerwan
+- sygnal zegarowy, jego zrodla
+- slowa kluczowe const, static, volatile
+- czy zmienna moze byc jednoczesnie volatile i static
+- czy wskaznik moze byc volatile
+- NULL pointer
+- RTOS, jakie roznice wzgledem zwyklego OSa

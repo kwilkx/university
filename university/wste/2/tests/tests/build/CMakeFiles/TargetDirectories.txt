@@ -1,0 +1,1 @@
+/home/krwi/university/wste/2/tests/tests/build/CMakeFiles/Quiz.dir

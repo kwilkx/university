@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/krwi/wste/google_googletest/app/RTurtle.h
+Turtle.h
+/home/krwi/wste/google_googletest/app/Turtle.h
+
+/home/krwi/wste/google_googletest/app/Stage.h
+RTurtle.h
+/home/krwi/wste/google_googletest/app/RTurtle.h
+
+/home/krwi/wste/google_googletest/app/Turtle.h
+
+/home/krwi/wste/google_googletest/app/main.cpp
+iostream
+-
+Turtle.h
+/home/krwi/wste/google_googletest/app/Turtle.h
+Stage.h
+/home/krwi/wste/google_googletest/app/Stage.h
+

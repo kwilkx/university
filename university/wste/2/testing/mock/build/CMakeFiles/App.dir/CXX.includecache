@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/krwi/wste/mock/App.cpp
+App.hpp
+/home/krwi/wste/mock/App.hpp
+
+/home/krwi/wste/mock/App.hpp
+
+/home/krwi/wste/mock/main.cpp
+
