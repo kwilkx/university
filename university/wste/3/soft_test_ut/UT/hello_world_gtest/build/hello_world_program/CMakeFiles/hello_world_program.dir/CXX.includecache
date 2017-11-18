@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kwilk/uczelnia/wste/3/ut/university/university/wste/3/soft_test_ut/UT/hello_world_gtest/hello_world_program/inOut.cpp
+iostream
+-
+string
+-
+inOut.h
+/home/kwilk/uczelnia/wste/3/ut/university/university/wste/3/soft_test_ut/UT/hello_world_gtest/hello_world_program/inOut.h
+
+/home/kwilk/uczelnia/wste/3/ut/university/university/wste/3/soft_test_ut/UT/hello_world_gtest/hello_world_program/inOut.h
+
+/home/kwilk/uczelnia/wste/3/ut/university/university/wste/3/soft_test_ut/UT/hello_world_gtest/hello_world_program/logic/file.cpp
+iostream
+-
+string
+-
+file.h
+/home/kwilk/uczelnia/wste/3/ut/university/university/wste/3/soft_test_ut/UT/hello_world_gtest/hello_world_program/logic/file.h
+../inOut.h
+/home/kwilk/uczelnia/wste/3/ut/university/university/wste/3/soft_test_ut/UT/hello_world_gtest/hello_world_program/inOut.h
+
+/home/kwilk/uczelnia/wste/3/ut/university/university/wste/3/soft_test_ut/UT/hello_world_gtest/hello_world_program/logic/file.h
+
+/home/kwilk/uczelnia/wste/3/ut/university/university/wste/3/soft_test_ut/UT/hello_world_gtest/hello_world_program/main.cpp
+logic/file.h
+/home/kwilk/uczelnia/wste/3/ut/university/university/wste/3/soft_test_ut/UT/hello_world_gtest/hello_world_program/logic/file.h
+
