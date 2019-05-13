@@ -1,5 +1,7 @@
 #include <iostream>
 #include <random>
+#include <fstream>
+#include <string>
 
 int generateNote() {
 	std::random_device rd;
@@ -13,7 +15,17 @@ int generateNote() {
 
 int main(int, char**)
 {
-	std::cout << "Ocena: " << generateNote() << std::endl;
+	std::ifstream file;
+	std::string name;
 
+	file.open("names.txt");
+
+	while(file >> name) {
+		if(name == "magda"){
+			std::cout << "Magda: 5" << std::endl;
+		} else {
+			std::cout << name << ": " << generateNote() << std::endl;
+		}	
+	}
 }
 
